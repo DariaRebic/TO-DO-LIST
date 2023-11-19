@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    /* Sets the default font family to 'Poppins', and fallback to a generic sans-serif font if 'Poppins' is not available*/
     font-family: 'Poppins', sans-serif;
+    /*Specifies that the padding and border of an element should be included in its total width and height*/
     box-sizing: border-box;
 } 
 .container{
@@ -13,9 +15,12 @@
 .todo-app{
     width: 100%;
     max-width: 540px;
+    /* Sets the background color of the element to white*/
     background: #fff;
     margin: 100px auto 20px;
+    /*Adds 40 pixels of padding on top, 30 pixels on the sides, and 70 pixels on the bottom.*/
     padding: 40px 30px 70px;
+    /*Applies a border-radius of 10 pixels to round the corners.*/
     border-radius: 10px;
 }
 .todo-app h2{
