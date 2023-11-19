@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+    //sets the viewport width to the device width and sets the initial scale to 1. This is commonly used for responsive web design.
     <meta name="viewport" content="width=device-width, initial-scale-1">
     <title>TO-DO LIST App - Easy Tutorials</title>
+    //links an external CSS stylesheet (style.css) to apply styles to the HTML content.
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    //starts a container div, commonly used for layout purposes
     <div class="container">
+        //starts a div with the class "todo-app" representing the main section of the to-do list application
         <div class="todo-app">
+            //creates a heading with the title "To-Do List" and includes an image (icon.png) inside the heading
             <h2>To-Do List <img src="images/icon.png"></h2>
+            // starts a row div containing an input field and a button
             <div class="row">
+                //creates a text input field with the ID "input-box" and a placeholder text.
                 <input type="text" id="input-box" placeholder="Add your text">
+                //creates a button that, when clicked, triggers a JavaScript function named "addTask."
                 <button onclick="addTask()">Add</button>
             </div>
+            // starts an unordered list with the ID "list-container"
            <ul id="list-container">
            <!-- <li class="checked">Task 1</li>
            <li>Task 2</li>
@@ -20,6 +29,7 @@
            </ul>
         </div>
     </div>
+    //includes an external JavaScript file (script.js) in the HTML document.
     <script src="script.js"></script>
 </body> 
 </html> 
